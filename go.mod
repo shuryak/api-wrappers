@@ -1,3 +1,3 @@
-module restapi
+module github.com/shuryak/api-wrappers
 
 go 1.22

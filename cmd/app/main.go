@@ -4,10 +4,11 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"restapi/internal/api"
-	"restapi/internal/api/calc"
-	"restapi/internal/api/greetings"
-	"restapi/pkg/router"
+
+	"github.com/shuryak/api-wrappers/internal/api"
+	"github.com/shuryak/api-wrappers/internal/api/calc"
+	"github.com/shuryak/api-wrappers/internal/api/greetings"
+	"github.com/shuryak/api-wrappers/pkg/router"
 )
 
 func main() {

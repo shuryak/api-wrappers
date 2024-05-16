@@ -4,8 +4,9 @@ import (
 	"context"
 	"encoding/json"
 	"net/http"
-	"restapi/pkg/query"
-	"restapi/pkg/router"
+
+	"github.com/shuryak/api-wrappers/pkg/query"
+	"github.com/shuryak/api-wrappers/pkg/router"
 )
 
 type Context struct {

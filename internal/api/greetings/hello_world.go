@@ -3,7 +3,8 @@ package greetings
 import (
 	"fmt"
 	"net/http"
-	"restapi/internal/api"
+
+	"github.com/shuryak/api-wrappers/internal/api"
 )
 
 type HelloReq struct {

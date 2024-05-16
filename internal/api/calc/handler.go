@@ -3,7 +3,8 @@ package calc
 import (
 	"errors"
 	"net/http"
-	"restapi/internal/api"
+
+	"github.com/shuryak/api-wrappers/internal/api"
 )
 
 type CalculateReq struct {
